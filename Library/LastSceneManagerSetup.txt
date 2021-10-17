@@ -1,0 +1,6 @@
+sceneSetups:
+- path: Assets/RealisticCarControllerV3/Demo Scenes/RCC City (Car Selection with
+    Loaded Scene).unity
+  isLoaded: 1
+  isActive: 1
+  isSubScene: 0
