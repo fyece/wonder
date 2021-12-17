@@ -7,7 +7,7 @@ using System.Text;
 internal enum SaveFormat { Triangles, Quads }
 internal enum SaveResolution { Full=0, Half, Quarter, Eighth, Sixteenth }
 
-internal class Terrain2Obj : EditorWindow
+/*internal class Terrain2Obj : EditorWindow
 {
    private SaveFormat _saveFormat = SaveFormat.Triangles;
    private SaveResolution _saveResolution = SaveResolution.Half;
@@ -20,7 +20,7 @@ internal class Terrain2Obj : EditorWindow
    private int _totalCount;
    private const int ProgressUpdateInterval = 10000;
 
-   [MenuItem("Terrain/Export To Obj...")]
+   //[MenuItem("Terrain/Export To Obj...")]
    private static void Init()
    {
       _terrain = null;
@@ -201,4 +201,4 @@ internal class Terrain2Obj : EditorWindow
       _counter = 0;
       EditorUtility.DisplayProgressBar("Saving...", "", Mathf.InverseLerp(0, _totalCount, ++_tCount));
    }
-}
+}*/
